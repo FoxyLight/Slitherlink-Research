@@ -74,3 +74,7 @@ Write the test-case catalog and experimental design for **Experiment 01**. The p
 ## Exit state of research to date
 
 Rules and broad options are established. Solver correctness, generation throughput, quality ratings, player ergonomics, and technology fit remain **unverified**. This project is in preparation, not implementation.
+
+## Experiment 01 research update — 2026-10-29
+
+The formal-representation research, draft reference fixtures, upstream solver/license review and solver experiment protocol are now documented under [Experiment 01](experiment-01/README.md). These are **research artifacts**, not executed results. The next step is a narrowly authorized solver check: compare an independent exact edge-search implementation with Copris multi-solution mode against mathematically derived fixtures; document every discrepancy. Generation and Android development remain out of scope.

@@ -64,3 +64,11 @@ Every future experiment should include:
 ## Next entry
 
 **Pending:** Design the Experiment 01 test fixture catalog and choose independent reference-verification methods.
+
+## 2026-10-29 — Experiment 01 research record
+
+- **Completed research/documentation:** reviewed Slinker, Copris, Loopy, Nikoli rules, algorithm literature, and license text. Added a [formal specification](experiment-01/formal-specification.md), [hand-derived fixture catalog](experiment-01/reference-fixtures.md), [solver comparison](experiment-01/solver-review.md), and [controlled experiment protocol](experiment-01/experiment-protocol.md).
+- **New verified external findings:** Slinker carries GPL-3.0 in its upstream license files; Copris documents BSD 3-Clause and a multiple-solution option; Simon Tatham's collection publishes MIT licensing. See the linked upstream sources in the solver review.
+- **Derived, not executed:** one-row boards supply exact 0/1/3-solution reference fixtures; a 2x5 double-loop candidate passes local constraints but fails global connectivity. More complex 3x3/4x4 cases have witnesses; uniqueness is **unverified**.
+- **Not done:** no automated checks, binaries, solver runs, performance data, Android prototypes, puzzle-generation runs, or human testing. Earlier baseline statement that there was no independently *machine*-checked catalog remains true.
+- **No new final technology or design decisions.** Next step recommended: separately authorize a limited exact-solver comparison on predeclared fixtures.

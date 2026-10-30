@@ -14,6 +14,7 @@ This repository is the **authoritative project record** for the proposed Android
 5. [Android technology, distribution, and IP](docs/05-android-and-distribution.md)
 6. [Open questions and preparation roadmap](docs/06-research-roadmap.md)
 7. [Evidence and decision log](docs/07-evidence-and-decisions.md)
+8. [Experiment 01 — formal rules, verified sources, reference cases and experiment protocol](docs/experiment-01/README.md)
 
 ## How to interpret the documentation
 
@@ -50,3 +51,7 @@ Do **not** use SPBT in this project.
 
 ---
 This repository is a documentation record, not a fork of Nikoli, Conceptis, Ejelta, Simon Tatham's Puzzles, or any other product. “Slitherlink” is a descriptive working name; the eventual public branding remains open pending trademark review.
+
+## Experiment 01 research update (2026-10-29)
+
+The [Experiment 01 research package](docs/experiment-01/README.md) now documents the formal edge model, hand-derived tiny-grid test cases, a deceptive disconnected-loop candidate, external solver/license review, and a protocol for the next *not-yet-run* exact-solver comparison. **No solver, generator, Android app, or benchmark was implemented/executed in this update.**
